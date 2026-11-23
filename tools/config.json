@@ -1,0 +1,14 @@
+{
+  "maxClipSeconds": {
+    "Veo": 8,
+    "Omni": 10,
+    "default": 8
+  },
+  "defaultModel": "Veo",
+  "commentsPerPost": 3,
+  "lengthToleranceSeconds": 1,
+  "pillarMix": {
+    "enabled": false,
+    "targets": {}
+  }
+}
