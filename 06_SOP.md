@@ -12,6 +12,7 @@
 | Video generation | Omni / Veo / Kling | 4–8 s clips; locked camera |
 | Stills (props, textures, inserts) | Flux / Midjourney / Ideogram | Edit a near-miss over regenerating |
 | Editing + text + captions | CapCut | All text is built here, never generated |
+| Intro & outro | CapCut / After Effects | Built once per project; see `_SHARED/intro-outro.md` |
 | Data, maps, numbers | After Effects / CapCut | Never AI-generate figures |
 | Voice | ElevenLabs (locked settings) | One voice per project |
 | Archive / real footage | Licensed stock / public domain | Never AI |
@@ -49,9 +50,10 @@ Adjust to the cadence in `00_DNA.md`, but keep **one** publishing day and
 4 VALIDATE  node tools/validate-posts.js 03_POST_BANK.md
 5 GENERATE  AI clips first; proof clips are real screenshots
 6 EDIT      text, chyron, REC/timecode, tears, sound design
-7 CAPTION   platform captions + hashtags + pinned comment
-8 PUBLISH   publish, pin immediately, reply
-9 LOG       row in 05_PROOF_TRACKER.md at 24h / 7d / 30d
+7 ASSEMBLE  wrap with the project's intro and outro (built once, never re-made)
+8 CAPTION   platform captions + hashtags + pinned comment
+9 PUBLISH   publish, pin immediately, reply
+10 LOG      row in 05_PROOF_TRACKER.md at 24h / 7d / 30d
 ```
 
 ---
@@ -83,6 +85,15 @@ Adjust to the cadence in `00_DNA.md`, but keep **one** publishing day and
 - [ ] No fabricated documents
 - [ ] No identifiable person in a negative context
 - [ ] Sources ready for every claim that matters
+
+**Packaging gate**
+
+- [ ] Intro is the project's own, ≤1.5 s, hard-cut into Clip 1
+- [ ] Outro is the project's own, 1.5–3 s, one CTA, no seam from the last clip
+- [ ] Intro and outro are the same files used on every other post
+- [ ] Audio logo lands on the same frame as every other post
+- [ ] Published runtime (content + intro + outro) is still inside the target
+- [ ] Avatar-style motifs and captions read at 40 px and on mute
 
 **Publish gate**
 

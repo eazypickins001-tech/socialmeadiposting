@@ -17,13 +17,16 @@ You are not writing essays. Every line must be usable in production.
 1. `README.md` — the workflow
 2. `00_DNA.md` — who this channel is, who it competes with, what it will not do
 3. `01_PILLARS.md` — the pillars and the standing instruction (content mix)
-4. `02_BRAND_SKIN.md` — palette, type, signature devices, voice
+4. `02_BRAND_SKIN.md` — this project's skin: archetype, palette, type, five
+   fingerprints, motion grammar, voice. Every project's skin is different; never
+   reuse another project's skin.
 5. `_SHARED/hook-architecture.md` — hook timing, formulas, rotation
 6. `_SHARED/post-anatomy.md` — the exact post block format
-7. `_SHARED/prompt-formula.md` — how to write the prompt cells
-8. `_SHARED/interrupt-taxonomy.md` — the 12 categories and their techniques
-9. `03_POST_BANK.md` — what already exists (do not duplicate it)
-10. `05_PROOF_TRACKER.md` — what is working
+7. `_SHARED/intro-outro.md` — how the project's intro and outro are built and reused
+8. `_SHARED/prompt-formula.md` — how to write the prompt cells
+9. `_SHARED/interrupt-taxonomy.md` — the 12 categories and their techniques
+10. `03_POST_BANK.md` — what already exists (do not duplicate it)
+11. `05_PROOF_TRACKER.md` — what is working
 
 ## Hard rules
 
@@ -47,6 +50,9 @@ You are not writing essays. Every line must be usable in production.
     screenshots or are not used at all.
 15. **Do not edit `_SHARED/`** unless the user explicitly asks for an engine
     change. It must stay identical across projects.
+16. **Wrap every post in the project's existing intro and outro.** They are
+    built once per project (_SHARED/intro-outro.md) and never redesigned per
+    post.
 
 ## How to produce one post (procedure)
 

@@ -52,7 +52,7 @@ Copy this into `03_POST_BANK.md`, one after another.
 | `Interrupt` | `NN — Name` from `_SHARED/interrupt-taxonomy.md`. Must differ from the previous post. |
 | `Psychographic` | One line: who feels this, and what they fear or want. |
 | `Hook` | The first spoken line. Must be the interrupt, not a setup. |
-| `Length` | Finished video length in seconds. 22–35 social, 40–60 story. |
+| `Length` | **Content** runtime in seconds. The published runtime adds the project intro (≤1.5 s) and outro (1.5–3 s) — see `_SHARED/intro-outro.md`. |
 | `Model` | `Veo` (max 8 s/clip) or `Omni` (max 10 s/clip). Default `Veo`. |
 | `Clips` table | One row per generated clip. Times are `m:ss–m:ss`. `Dur` is `Ns`. |
 | `Visual` | The full prompt: six parts + negative prompt, in one cell. Use `<br>` if you need line breaks inside the cell. |

@@ -12,6 +12,10 @@ node tools/validate-posts.js 03_POST_BANK.md
 
 Never split a post across files. The post is the single production record.
 
+**`Length:` is the content runtime only.** Every published post adds the
+project's intro (≤1.5 s) and outro (1.5–3 s) on top — see
+`_SHARED/intro-outro.md`.
+
 ---
 
 ## Status key

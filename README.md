@@ -23,7 +23,7 @@ cd <new-project>
 # 2. Fill the four project files
 #    00_DNA.md         competitor audit + format spec
 #    01_PILLARS.md     pillars + standing instruction (mix ratio)
-#    02_BRAND_SKIN.md  palette, type, signature devices, bios
+#    02_BRAND_SKIN.md  design this project's own skin (method + examples)
 #    06_SOP.md         your production + publishing rhythm
 
 # 3. Scaffold posts
@@ -51,9 +51,10 @@ git clone <this-repo> my-project && cd my-project && rm -rf .git && git init
 | `_SHARED/prompt-formula.md` | Six-part prompt skeleton, clip limits, integrity rules | **Do not edit** |
 | `_SHARED/hook-architecture.md` | Hook timing, formulas, rotation, proof loop | **Do not edit** |
 | `_SHARED/post-anatomy.md` | The canonical post block the tools parse | **Do not edit** |
+| `_SHARED/intro-outro.md` | How to build the intro and outro once and reuse them | **Do not edit** |
 | `00_DNA.md` | Competitor audit, gap map, format spec, guardrails | **Fill in** |
 | `01_PILLARS.md` | Pillars, standing instruction, topic queue | **Fill in** |
-| `02_BRAND_SKIN.md` | Broadcast skin default + how to override | **Fill in** |
+| `02_BRAND_SKIN.md` | Skin design method + five worked examples (unique per project) | **Fill in** |
 | `03_POST_BANK.md` | Every post: hook, prompt table, caption, comments, CTA | Build it |
 | `04_CAPTIONS.md` | Platform captions, hashtag tiers, pinned comments | Fill in |
 | `05_PROOF_TRACKER.md` | Views, holds, follows, shares per post | Log weekly |
@@ -73,11 +74,15 @@ When the engine improves, update it everywhere — never fork it per project.
 1. Fill `00_DNA.md` — who is winning, what they miss, what you will do instead.
 2. Fill `01_PILLARS.md` — 3–8 pillars, one standing instruction (the mix ratio
    the data supports), a topic queue of 30+ ideas.
-3. Fill `02_BRAND_SKIN.md` — palette, type, signature devices, handles, bios,
-   avatar and banner specs.
-4. Fill `04_CAPTIONS.md` — caption templates and the hashtag tiers.
-5. Fill `06_SOP.md` — your weekly rhythm and toolchain.
-6. Configure the validator: `tools/config.json` (max clip length, expected
+3. Fill `02_BRAND_SKIN.md` — design this project's own skin: one archetype,
+   then its palette, type, five fingerprints, motion grammar, voice, handles,
+   bios, avatar and banner specs. Every project gets a different skin.
+4. **Build the intro and outro once**, following `_SHARED/intro-outro.md`:
+   0.5–1.5 s intro, 1.5–3 s outro, one audio logo, exported and saved as a
+   reusable template. Every post reuses them unchanged.
+5. Fill `04_CAPTIONS.md` — caption templates and the hashtag tiers.
+6. Fill `06_SOP.md` — your weekly rhythm and toolchain.
+7. Configure the validator: `tools/config.json` (max clip length, expected
    comment count, mix ratio).
 
 ### Stage 1 — Topic → post
@@ -100,10 +105,12 @@ When the engine improves, update it everywhere — never fork it per project.
 ### Stage 3 — Generate
 
 1. Generate AI clips first; assemble second.
-2. Build text, numbers, labels and proof frames **in the editor**, never in the
+2. Wrap the assembled clips with the project's intro and outro. They are built
+   once in Stage 0 and never re-designed per post.
+3. Build text, numbers, labels and proof frames **in the editor**, never in the
    model.
-3. Use the 4-pass rule: composition → lighting → palette → final.
-4. Prefer editing a near-miss over regenerating.
+4. Use the 4-pass rule: composition → lighting → palette → final.
+5. Prefer editing a near-miss over regenerating.
 
 ### Stage 4 — Captions and publish
 

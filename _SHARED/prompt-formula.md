@@ -161,7 +161,8 @@ colour palette: [background hex], [accent hex], [shadow hex], [text hex],
 [secondary accent hex — only for X subjects]
 ```
 
-Example (broadcast skin — see `02_BRAND_SKIN.md`):
+Example (one project's skin — each project defines its own in
+`02_BRAND_SKIN.md`):
 
 ```
 colour palette: CRT black #0B0B0C background, bone #EFE9DC highlights, single
